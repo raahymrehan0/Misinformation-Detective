@@ -73,7 +73,7 @@ Open http://localhost:8000
 Run the React app:
 npm start
 Open http://localhost:3000
-|
+
 ## Game Descriptions
 
 ### Real or Fake Game
@@ -104,6 +104,8 @@ misinformation-detective/
 ```
 
 ## API Endpoints 
+
+```text
 GET    /api/real_or_fake_question/      # Get a random Real or Fake game question
 POST   /api/real_or_fake_answer/        # Submit an answer for Real or Fake game
 
@@ -112,6 +114,7 @@ POST   /api/guess_headline_answer/      # Submit an answer for Guess the Headlin
 
 GET    /api/guess_source_question/      # Get a random Guess the Source game question
 POST   /api/guess_source_answer/        # Submit an answer for Guess the Source game
+```
 
 ## Contributing
 
