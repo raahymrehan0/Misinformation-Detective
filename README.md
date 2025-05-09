@@ -87,19 +87,21 @@ Users are challenged to identify which publication an article excerpt originated
 
 ## Project Structure
 
+```text
 misinformation-detective/
 ├── app/
-│   ├── backend/            # Django API server
-│   │   ├── game/           # Game logic and models
-│   │   ├── misinformation/ # Project settings
-│   │   └── manage.py       # Django management script
-│   └── frontend/           # React application
-│       ├── public/         # Static files
-│       ├── src/            # React components and logic
-│       │   ├── components/ # Game components
-│       │   └── App.js      # Main application component
-│       └── package.json    # Frontend dependencies
-└── README.md               # Project documentation
+│   ├── backend/            Django API server
+│   │   ├── game/           Game logic and models
+│   │   ├── misinformation/ Project settings
+│   │   └── manage.py       Django management script
+│   └── frontend/           React application
+│       ├── public/         Static files
+│       ├── src/            React components and logic
+│       │   ├── components/ Game components
+│       │   └── App.js      Main application component
+│       └── package.json    Frontend dependencies
+└── README.md               Project documentation
+```
 
 ## API Endpoints 
 GET    /api/real_or_fake_question/      # Get a random Real or Fake game question
