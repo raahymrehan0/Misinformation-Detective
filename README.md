@@ -24,8 +24,6 @@ In today's digital age, being able to identify misinformation is a crucial skill
 - **Guess the Headline Game**: Identify the correct headline for a given article excerpt  
 - **Guess the Source Game**: Determine which publication an article excerpt came from  
 - Score tracking and timing mechanics  
-- Progressive difficulty levels  
-- Immediate feedback with educational explanations  
 
 ## Demo
 **Live Demo:** [Video Demo](https://www.youtube.com/watch?v=sU_tLRtoJYg)
